@@ -79,7 +79,7 @@ public class Plant {
         }
 
         public String getWateringInfo() {
-            return name + watering + frequencyOfWatering;
+            return name + " " + watering + " " + setFrequencyOfWatering(LocalDate.now().plusDays(7));
         }
 
 
