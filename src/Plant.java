@@ -21,22 +21,22 @@ public class Plant {
         this.frequencyOfWatering = frequencyOfWatering;
     }
 
-    public Plant(String name, String notes, LocalDate planted, LocalDate watering, int frequencyOfWatering) {
+    public Plant(String notes, LocalDate planted) {
         this.name = name;
         this.notes = null;
         this.planted = LocalDate.now();
-        this.watering = watering;
+        this.watering = LocalDate.now();
         this.frequencyOfWatering = frequencyOfWatering;
     }
 
-    public Plant(String name, String notes, LocalDate planted, LocalDate watering, int frequencyOfWatering) {
+    public Plant(String notes, LocalDate planted, LocalDate watering, int frequencyOfWatering) {
         this.name = name;
         this.notes = null;
         this.planted = LocalDate.now();
         this.watering = LocalDate.now();
         this.frequencyOfWatering = 7;
-
 }
+
 
 
 
